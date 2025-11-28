@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 700px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #764ba2;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .heart {
+            text-align: center;
+            font-size: 3em;
+            color: #e74c3c;
+            margin-bottom: 20px;
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            10%, 30% { transform: scale(1.1); }
+            20%, 40% { transform: scale(1); }
+        }
+
+        .message {
+            color: #333;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .message p {
+            margin-bottom: 15px;
+        }
+
+        .signature {
+            text-align: right;
+            font-style: italic;
+            color: #666;
+            margin-top: 30px;
+            font-size: 1.1em;
+        }
+
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+            font-size: 0.95em;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">💔</div>
+        <h1>I'm Truly Sorry</h1>
+        
+        <div class="message">
+            <p>I know words can't undo what happened, but I need you to know how deeply sorry I am.</p>
+            
+            <p>I let myself be influenced by others and allowed insecurity to cloud my judgment. I accused you of something you never did, and I broke your trust. That was completely wrong of me.</p>
+            
+            <p>You were loyal, honest, and gave me your heart despite the distance between us. Instead of trusting you, I doubted you. I realize now how much I hurt you, and I take full responsibility for my actions.</p>
+            
+            <p>I know nobody is perfect and we all make mistakes. But that doesn't make what I did okay. I'm learning from this and I hope you can see that I genuinely didn't mean to hurt you.</p>
+            
+            <p>I'm not asking you to forgive me right away, or even to take me back. I just want you to know that I see my mistake clearly now, and I'm genuinely sorry for the pain I caused you.</p>
+            
+            <p>Whatever you decide, I respect your feelings and your decision. You deserve happiness and someone who trusts you completely.</p>
+        </div>
+        
+        <div class="signature">
+            — Someone who realizes they lost something precious
+        </div>
+        
+        <div class="note">
+            <strong>Note:</strong> Take all the time you need. There's no pressure to respond. I just wanted you to know how I feel.
+        </div>
+    </div>
+</body>
+</html>
